@@ -1,0 +1,45 @@
+.payment-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .payment-form {
+    width: 300px;
+  }
+  
+  .credit-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .credit-card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card-number {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-holder {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .expiry,
+  .cvv {
+    font-size: 14px;
+  }
+  
